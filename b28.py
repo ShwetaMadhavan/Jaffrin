@@ -8,4 +8,4 @@ for i in range(x+1,y):
         ans=ans+(r*r*r)
         s=s//10
     if(ans==i):
-        print(i)
+        print(i,end=" ")
