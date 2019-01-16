@@ -1,0 +1,11 @@
+s=int(input())
+ans=0
+y=s
+while(s>0):
+    r=s%10
+    ans=ans+(r*r*r)
+    s=s//10
+if(ans==y):
+    print("yes")
+else:
+    print("no")
